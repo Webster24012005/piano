@@ -1,0 +1,53 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.container {
+    width: 480px;
+    display: flex;   
+    justify-content: space-around;
+    position: relative;
+}
+
+.white{
+    width: 50px;
+    height: 200px;
+    background: white;
+    border: 1px solid silver;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 10px lightgrey;
+    cursor: pointer;
+}
+.black {
+    background: black;
+    width: 40px;
+    height: 120px;
+    border-radius: 10px;
+    cursor: pointer;
+    position: absolute;
+}
+.white:hover{
+    background-color: lightgray;
+}
+
+.black:hover{
+    background-color: rgb(34, 34, 34);
+}
+.b1{
+    left: 50px;
+}
+.b2{
+    left: 120px;
+}
+.b3{
+    left: 185px;
+}
+.b4 {
+    right: 60px;
+}
+.b5{
+    right: 120px;
+}
